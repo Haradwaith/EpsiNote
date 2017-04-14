@@ -1,0 +1,220 @@
+@font-face { 
+  font-family: 'i'; 
+  src: url('i.ttf'); 
+}
+	
+h1{
+	font-family : i;
+	position : absolute;
+	font-size : 300%;
+	margin-left : 40%;
+    text-shadow: 15px 15px 10px #32331D; 
+}	
+
+pre{
+	color:white;
+	font-size : 122%;
+}
+
+body{
+    background:url(images/imgfond.jpg), no-repeat;
+    background-size: 100%;  
+}  
+
+#contact{
+	font-size : 175%;
+	color : #FF8000;
+     position: absolute;
+    font-style: Gabriola;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size : 175%;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+#idepi{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 13%;
+    width: 15%;
+    height: 35%;
+}
+   
+#corps{
+    position: absolute;
+    background: linear-gradient(to bottom left, rgba(11,11,97,0.7), rgba(88, 130,250,0.7), rgba(4,180,4,0.6),rgba(247, 254, 46, 0.6),rgba(255, 128, 0,0.7), rgba(255, 0, 0, 0.7));
+    width: 93%;
+    border: 2px black;
+    margin: auto;	
+    height: 850px;
+    border-radius: 10px 10px;
+    z-index: 3;
+    opacity: 0,85;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#corps2{
+    position: absolute;
+	background-image : url(images/fondcercle.jpg); 
+	background-size : 50%;
+	background-repeat: no-repeat;	
+    width: 88%;
+    border: 2px black;
+    margin: auto;
+    background-color: white;	
+    height: 650px;
+    border-radius: 10px 10px;
+    z-index: 2;
+    margin-left: 6%;
+}
+
+#imgMenu{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+
+#imgMenu2{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 38%;
+}
+
+#imgMenu3{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 30%;
+}
+
+#corps3{ 
+    width: 25%;
+    border: 2px black;
+    margin: auto;
+    height: 650px;
+    border-radius: 12%;
+}
+
+a{
+    color: darkgreen;
+    text-decoration: none, underline;
+    font-style: italic;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#Bprof{
+    position: absolute;
+    margin-left: -21.25%;
+    margin-top: 6.25%;
+}
+
+#Badmin{
+    position: absolute;
+    left: 6%;
+    top: 46%;
+}
+
+#Beleve {
+    position: absolute;
+    left: 20%;
+    top: 74%;
+}
+
+#Bdeco{
+    position: absolute;
+    left: 5.10%;
+    top: 86%;
+}
+
+#Bacceuil {
+    position: absolute;
+    left: 0.75%;
+    top: 34%;
+}
+
+
+#EPSI{
+	position: absolute;
+	margin-top: 0%;
+    margin-left: 10%;
+	width: 45%;
+	height: 100%%;
+}
+
+#Bsaisie{
+    position: absolute;
+    margin-left: -21.25%;
+    margin-top: 9%;
+}
+
+#Bconsult{
+    position: absolute;
+    left: 5.25%;
+    top: 43.5%;
+}
+
+#Bbuletin{
+    position: absolute;
+    left: 19.5%;
+    top: 75.75%;
+}
+
+#footer{
+    position: absolute;
+    margin-top: 38%
+}
+
+a.tooltip em {
+    display: none;
+}
+a.tooltip:hover {
+    border: 0;
+    position: relative;
+    z-index: 500;
+    text-decoration: none;
+}
+a.tooltip:hover em {
+    font-style: Gabriola;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: -45px;
+    left: 120px;
+    padding: 5px;
+    color: #000;
+    border: 1px solid #bbb;
+    background: #ffc;
+    width:170px;
+}
+a.tooltip:hover em span {
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    height: 7px;
+    width: 11px;
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+
+#textTravaux{
+    position: absolute;
+    font-style: Gabriola;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size : 175%;
+	color : #B9121B;
+    text-shadow: 10px 10px 10px #000000; 
+}
+#travaux{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 13%;
+    width: 25%;
+    height: 50%;
+}
